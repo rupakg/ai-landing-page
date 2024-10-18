@@ -1,0 +1,52 @@
+{
+  "languages": [
+    {
+      "name": "TypeScript",
+      "version": "^5",
+      "primary": true,
+      "directory": "app",
+      "extension": ".ts"
+    },
+    {
+      "name": "JavaScript",
+      "version": "ES6+",
+      "directory": "app",
+      "extension": ".js"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Next.js",
+      "type": "Web framework",
+      "version": "14.2.15",
+      "primary": true,
+      "directory": "app",
+      "extension": ".tsx"
+    },
+    {
+      "name": "React",
+      "type": "UI library",
+      "version": "^18",
+      "directory": "app",
+      "extension": ".tsx"
+    }
+  ],
+  "testingFrameworks": [],
+  "buildTools": [
+    {
+      "name": "Next.js",
+      "type": "Build tool",
+      "version": "14.2.15"
+    }
+  ],
+  "packageManager": "npm",
+  "linters": [
+    {
+      "name": "ESLint",
+      "version": "^8",
+      "type": "JavaScript linter"
+    }
+  ],
+  "databases": [],
+  "projectType": "Web application"
+}
